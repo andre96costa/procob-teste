@@ -1,16 +1,25 @@
 # Teste pratico Procob
-
++ Laravel 8
++ PHP 7.4
++ Mysql 8
 ## Instruções
-1 - No arquivo .env.example alterar as configurações para o seu banco de dados.
-Renomear o arquivo para .env
+1 - Clonar o projeto
 
-2 - Executar o compando 
+2 - Executar o compando
+```php
+    composer installl
+```
+Para instalar as dependencias do laravel.
+
+3 - Renomear o arquivo .env.example para .env, mudar as configurações de acesso ao banco de dados.
+
+4 - Executar o compando 
 ```php
     php artisan migrate
 ```
 para gerar todas as tabelas do banco de dados.
 
-3 - Execute o compando 
+5 - Execute o compando 
 ```php
     php artisan db:seed
 ``` 
